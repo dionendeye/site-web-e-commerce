@@ -1,0 +1,120 @@
+ul
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:navy;
+}
+#barre
+{
+    bottom: 16px;
+    position: relative;
+    justify-content: center;
+    background-color: gainsboro;
+    width: 1334px;
+    height: 1cm;
+}  
+h3
+{
+    text-align: center;
+}
+
+li
+{
+    padding: 50px;
+}
+a:hover
+{
+    color: lightcoral;
+}
+a
+{
+    color: oldlace;
+}
+
+#container
+{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    justify-content: space-around;
+}
+
+#listing
+{
+    display: flex;
+    flex-direction: row;
+    margin: 28px;
+    justify-content: space-around;
+}
+
+div:nth-child(1)
+{
+    background-color: lavender;
+    width: 250px;
+    height: 170px;
+}
+div:nth-child(2)
+{
+    background-color: lavender;
+    width: 280px;
+    height: 170px;
+}
+div:nth-child(3)
+{
+    background-color: lavender;
+    width: 280px;
+    height: 170px;
+}
+div:nth-child(4)
+{
+    background-color: lavender;
+    width: 280px;
+    height: 170px;
+}
+
+section
+{
+    flex-direction: row;
+    display: flex;
+    margin-block-end: 0,5px;
+    justify-content: space-between;
+}
+.Affiche
+{
+    background-color: rgb(247, 117, 77);
+}
+p
+{
+    color: gray;
+    margin: 20px;
+    font-size: 17px;
+}
+
+.Introduction
+{
+    color: rgb(247, 117, 77);
+}
+
+#barre2
+{
+    background-color: rgb(106, 166, 245);
+    width: 1334px;
+    height: 2cm;
+}   
+#barre3
+{
+   bottom: 10px;
+   position: relative;
+    background-color: navy;
+    width: 1334px;
+    height: 3cm;
+}
+#icones
+{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    justify-content: space-around; 
+}
